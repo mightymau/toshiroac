@@ -1,13 +1,216 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@media (min-width: 992px) {
+  body {
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 990px) {
+  div.carousel-caption h3 {
+  font-size: 2rem;
+  }
+ 
+ 
+
+}
+a, a:visited {
+color: #222222;
+}
+a:hover {
+color: #00AAE0;
+text-decoration:none;
+}
+h3 {
+font-family:"Poppins";
+font-weight:900;
+font-size:3rem;
+}
+h1 {
+font-family:"Roboto Condensed";
+font-weight:900;
+font-size:2rem;
+text-transform: uppercase;
+letter-spacing:-1px;
+}
+h4 {
+font-size:1rem;
+}
+.product-info {
+font-size:.9rem;
+padding-left:1rem;
+}
+
+.navbar {
+background: #FFFFFF;
+flex-direction: column;
+padding:0;
+
+}
+.slogan {
+float:left;
+}
+.social-media {
+float:right;
+}
+.social-media a, .contact a {
+background-size:15px;
+padding-left:1.2rem;
+padding-bottom:1rem;
+margin-right:1rem;
+
+}
+.contact {
+display:flex;
+justify-content:flex-end;
+align-self:flex-end;
+letter-spacing:1px;
+}
+
+.social-media a, .contact a {
+background-size:15px;
+padding-left:1.2rem;
+padding-bottom:1rem;
+margin-right:1rem;	
+}
+.contact div {
+float:left;
+padding-left:20px;
+text-transform:uppercase;
+font-size: .7rem;
+}
+.contact div a {
+font-weight:700;
+line-height:5px;
+}
+.contact-info {
+color:#C2C2C2;
+}
+
+.navbar-top {
+width: 100vw;
+height:48px;
+
+left:0;
+top:0;
+
+background-color: #F9F9F9;
+padding: 1rem 10%;
+text-transform:uppercase;
+font-size: 0.7em;
+font-weight: 600;
+letter-spacing:1px;
+
+display:flex;
+justify-content:space-between;
+}
+.navbar-brand img {
+width:15rem;
+}
+.logocontact {
+width: 80vw;
+height: 10vh;
+
+display: flex;
+justify-content:space-between;
+align-items: center;
+}
+
+/**
+.icon-facebook {
+background: url(../img/icon_facebook.png) no-repeat;	
+}
+.icon-twitter {
+background: url(../img/icon_twitter.png) no-repeat;
+}
+.icon-instagram {
+background: url(../img/icon_instagram.png) no-repeat;
+}
+.icon-mail {
+background: url(../img/icon_mail.png) no-repeat;
+font-size:1.2em;	
+}
+.icon-phone {
+background: url(../img/icon_phone.png) no-repeat;
+font-size:1.2em;	
+ 
+}
+.icon-question {
+background: url(../img/icon_question.png) no-repeat;	
+font-size:1.2em;	
+
+}
+**/
+.navbar-nav {
+background-color: #00AAE0;
+margin-top:10px;
+margin-bottom:-20px;
+width: 80vw;
+
+}
+.nav-item {
+background-color: #00AAE0;
+text-transform:uppercase;
+padding: .5rem 2rem;
+letter-spacing:2px;
+font-size:.8rem;
+color: #FFF;
+
+}
+ul.navbar-nav li.nav-item a.nav-link{
+font-weight: 700;
+color: #FFF;
+
+
+}
+
+header {
+margin-top:20vh;
+}
+.carousel-caption {
+transform: translateY(-50%);
+bottom: 0;
+top: 50%;
+}
+
+.carousel-inner .item{
+ height: 100%;
+}
+.carousel-inner .item img {
+ width: 100%;
+ height: 100% !important;
+ object-fit: cover;
+}
+
+
+.brands {
+display:flex;
+justify-content:center;
+color:#555;
+}
+.btn-primary, .btn-secondary {
+background-color: #00AAE0;
+border:none;
+}
+.about, .contactpage, .services, .products {
+margin-top:30vh;
+}
+
+.bborder {
+border:1px solid black;
+}
+
+
+
+

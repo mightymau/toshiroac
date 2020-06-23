@@ -15,7 +15,7 @@ function Nav(){
 			</div>
 		</div>
 		<div className="logocontact">
-        	<a className="navbar-brand" href="index.php"><img src={Logo}/></a>
+        	<a className="navbar-brand" href="index.php"><img src={Logo} alt="Toshiro"/></a>
 			<div className="collapse navbar-collapse contact">
 				<div>
 					<a className="icon-mail" href="mailto:contact@toshiroac.com">contact us</a><br /><span className="contact-info">contact@toshiroac.com</span>

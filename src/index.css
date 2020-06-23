@@ -127,31 +127,32 @@ justify-content:space-between;
 align-items: center;
 }
 
-/**
+
 .icon-facebook {
-background: url(../img/icon_facebook.png) no-repeat;	
+background: url(./img/icon_facebook.png) no-repeat;	
 }
+
 .icon-twitter {
-background: url(../img/icon_twitter.png) no-repeat;
+background: url(./img/icon_twitter.png) no-repeat;
 }
 .icon-instagram {
-background: url(../img/icon_instagram.png) no-repeat;
+background: url(./img/icon_instagram.png) no-repeat;
 }
 .icon-mail {
-background: url(../img/icon_mail.png) no-repeat;
+background: url(./img/icon_mail.png) no-repeat;
 font-size:1.2em;	
 }
 .icon-phone {
-background: url(../img/icon_phone.png) no-repeat;
+background: url(./img/icon_phone.png) no-repeat;
 font-size:1.2em;	
  
 }
 .icon-question {
-background: url(../img/icon_question.png) no-repeat;	
+background: url(./img/icon_question.png) no-repeat;	
 font-size:1.2em;	
 
 }
-**/
+
 .navbar-nav {
 background-color: #00AAE0;
 margin-top:10px;

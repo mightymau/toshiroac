@@ -34,7 +34,6 @@ function App() {
       <ScrollToTop>
       <Nav />
       <div className="App">
-        <h1>Hello</h1>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
         <Route path="/services" component={Services} />

@@ -21,7 +21,7 @@ function Nav(){
 					<a className="icon-mail" href="mailto:contact@toshiroac.com">contact us</a><br /><span className="contact-info">contact@toshiroac.com</span>
 				</div>
 				<div>
-					<a className="icon-phone" href="twitter.com">call us</a><br /><span className="contact-info">+632 8880 4456</span>
+					<a className="icon-phone" href="mailto:contact@toshiroac.com">call us</a><br /><span className="contact-info">+632 8880 4456</span>
 				</div>
 				<div>
 					<a className="icon-question" href="mailto:contact@toshiroac.com">request a quote</a><br /><span className="contact-info">request for service?</span>

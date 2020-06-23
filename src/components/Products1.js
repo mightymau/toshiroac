@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
 
 function Products1() {
     return(
@@ -10,7 +9,7 @@ function Products1() {
       <a href="/products"><img className="card-img-top" src="/products/1.jpg" alt="Product 1" /></a>
       <div className="card-body">
         <h4 className="card-title">
-          <a href="#">9000Btu/h~30000Btu/h Cooling Only / Cooling and Heating YAB Series Split Type Air Conditioner</a>
+          <a href="/products">9000Btu/h~30000Btu/h Cooling Only / Cooling and Heating YAB Series Split Type Air Conditioner</a>
         </h4>
         <p className="card-text">
     <ul className="product-info">
@@ -26,10 +25,10 @@ function Products1() {
   </div>
   <div className="col-lg-3 col-md-4 col-sm-6 portfolio-item">
     <div className="card h-100">
-      <a href="#"><img className="card-img-top" src="/products/2.jpg" alt="Product 2" /></a>
+      <a href="/products"><img className="card-img-top" src="/products/2.jpg" alt="Product 2" /></a>
       <div className="card-body">
         <h4 className="card-title">
-          <a href="#">Thailand Standard R410a / R32 Gas DC / AC Cooling Only Wall Mouted Split Type Air Conditioner</a>
+          <a href="/products">Thailand Standard R410a / R32 Gas DC / AC Cooling Only Wall Mouted Split Type Air Conditioner</a>
         </h4>
         <p className="card-text">
     <ul className="product-info">
@@ -45,10 +44,10 @@ function Products1() {
   </div>
   <div className="col-lg-3 col-md-4 col-sm-6 portfolio-item">
     <div className="card h-100">
-      <a href="#"><img className="card-img-top" src="/products/3.jpg" alt="Product 3" /></a>
+      <a href="/products"><img className="card-img-top" src="/products/3.jpg" alt="Product 3" /></a>
       <div className="card-body">
         <h4 className="card-title">
-          <a href="#">220~240V, 50Hz, 1Ph India Energy Efficiency R410a 3 Start Cooling Only Split Air Conditioner</a>
+          <a href="/products">220~240V, 50Hz, 1Ph India Energy Efficiency R410a 3 Start Cooling Only Split Air Conditioner</a>
         </h4>
         <p className="card-text">
           <ul className="product-info">
@@ -63,10 +62,10 @@ function Products1() {
   </div>
   <div className="col-lg-3 col-md-4 col-sm-6 portfolio-item">
     <div className="card h-100">
-      <a href="#"><img className="card-img-top" src="/products/4.jpg" alt="Product 4" /></a>
+      <a href="/products"><img className="card-img-top" src="/products/4.jpg" alt="Product 4" /></a>
       <div className="card-body">
         <h4 className="card-title">
-          <a href="#">Wall Split Air Conditioner 208-230V/60Hz /1Ph, SEER21, North America, Cooling And Heating</a>
+          <a href="/products">Wall Split Air Conditioner 208-230V/60Hz /1Ph, SEER21, North America, Cooling And Heating</a>
         </h4>
         <p className="card-text">
     <ul className="product-info">
@@ -82,10 +81,10 @@ function Products1() {
   </div>
   <div className="col-lg-3 col-md-4 col-sm-6 portfolio-item">
     <div className="card h-100">
-      <a href="#"><img className="card-img-top" src="/products/5.jpg" alt="Product 5" /></a>
+      <a href="/products"><img className="card-img-top" src="/products/5.jpg" alt="Product 5" /></a>
       <div className="card-body">
         <h4 className="card-title">
-          <a href="#">Wall Split Air Conditione 220V/1Ph/50Hz, R22, T3, Iran B Class Cooling Only / Cooling And Heating</a>
+          <a href="/products">Wall Split Air Conditione 220V/1Ph/50Hz, R22, T3, Iran B Class Cooling Only / Cooling And Heating</a>
         </h4>
         <p className="card-text">
     <ul className="product-info">
@@ -104,10 +103,10 @@ function Products1() {
   </div>
   <div className="col-lg-3 col-md-4 col-sm-6 portfolio-item">
     <div className="card h-100">
-      <a href="#"><img className="card-img-top" src="/products/6.jpg" alt="Product 6" /></a>
+      <a href="/products"><img className="card-img-top" src="/products/6.jpg" alt="Product 6" /></a>
       <div className="card-body">
         <h4 className="card-title">
-          <a href="#">Wall Split Air Conditioner 220V/1PH/50HZ R22 T3 YAB Series Cooling Only</a>
+          <a href="/products">Wall Split Air Conditioner 220V/1PH/50HZ R22 T3 YAB Series Cooling Only</a>
         </h4>
         <p className="card-text">
     <ul className="product-info">
@@ -123,10 +122,10 @@ function Products1() {
   </div>
   <div className="col-lg-3 col-md-4 col-sm-6 portfolio-item">
     <div className="card h-100">
-      <a href="#"><img className="card-img-top" src="/products/7.jpg" alt="Product 7" /></a>
+      <a href="/products"><img className="card-img-top" src="/products/7.jpg" alt="Product 7" /></a>
       <div className="card-body">
         <h4 className="card-title">
-          <a href="#">Split Wall Air Conditioner 220V/1PH/50HZ R22 T1 R series single cold</a>
+          <a href="/products">Split Wall Air Conditioner 220V/1PH/50HZ R22 T1 R series single cold</a>
         </h4>
         <p className="card-text">
     <ul className="product-info">
@@ -144,10 +143,10 @@ function Products1() {
   </div>
   <div className="col-lg-3 col-md-4 col-sm-6 portfolio-item">
     <div className="card h-100">
-      <a href="#"><img className="card-img-top" src="/products/8.jpg" alt="Product 8" /></a>
+      <a href="/products"><img className="card-img-top" src="/products/8.jpg" alt="Product 8" /></a>
       <div className="card-body">
         <h4 className="card-title">
-          <a href="#">Wall Split Air Conditioner 220V/1PH/50HZ R410a T1 R series Cooling Only/Cooling</a>
+          <a href="/products">Wall Split Air Conditioner 220V/1PH/50HZ R410a T1 R series Cooling Only/Cooling</a>
         </h4>
         <p className="card-text">
     <ul className="product-info">

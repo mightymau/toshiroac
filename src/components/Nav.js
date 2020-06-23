@@ -38,27 +38,27 @@ function Nav(){
           <ul className="navbar-nav justify-content-center d-flex flex-f rounded">
             <Link to="/" exact>
             <li className="nav-item">
-              <a className="nav-link" href="index.php">Home</a>
+              <a className="nav-link" href="/">Home</a>
             </li>
             </Link>
             <Link to="/about">
             <li className="nav-item">
-              <a className="nav-link" href="about.php">About Toshiro</a>
+              <a className="nav-link" href="about">About Toshiro</a>
             </li>
             </Link>
             <Link to="/products">
             <li className="nav-item">
-              <a className="nav-link" href="products.php">Products</a>
+              <a className="nav-link" href="products">Products</a>
             </li>
             </Link>
             <Link to="/services">
             <li className="nav-item">
-              <a className="nav-link" href="services.php">Services</a>
+              <a className="nav-link" href="services">Services</a>
             </li>
             </Link>
             <Link to="/contact">
             <li className="nav-item">
-              <a className="nav-link" href="contact.php">Contact</a>
+              <a className="nav-link" href="contact">Contact</a>
             </li>
             </Link>         
           </ul>

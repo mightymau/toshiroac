@@ -25,9 +25,13 @@ import ImgMitsubishi from './img/brands/mitsubishi.png'
 import ImgSamsung from './img/brands/samsung.png'
 import ImgElectrolux from './img/brands/electrolux.png'
 
+import ScrollToTop from './components/ScrollToTop'
+
+
 function App() {
   return (
     <Router>
+      <ScrollToTop>
       <Nav />
       <div className="App">
         <h1>Hello</h1>
@@ -37,6 +41,7 @@ function App() {
         <Route path="/products" component={Products} />
         <Route path="/contact" component={Contact} />
       </div>
+      </ScrollToTop>
     </Router>
   );
 }
